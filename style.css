@@ -35,7 +35,7 @@ body {
 }
 
 .icon {
-    font-size: 30px;
+    font-size: 21px;
     color: red;
 }
 
@@ -43,10 +43,10 @@ body {
     border: 1px solid black;
 }
 
-.para{
+/* .para{
     position:relative;
     bottom:4px;
-}
+} */
 
 button {
     position: relative;
