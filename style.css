@@ -1,0 +1,91 @@
+body {
+    height: 100dvh;
+    background-image: url(https://images4.alphacoders.com/702/702142.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.popup {
+    width: 6rem;
+    display: flex;
+    padding: 8px;
+    background: #D3CCE3;
+    background: -webkit-linear-gradient(to left, #E9E4F0, #D3CCE3);
+    background: linear-gradient(to left, #E9E4F0, #D3CCE3);
+    border-radius: 10px;
+    position: relative;
+    display: none;
+    animation-name: animate-module;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animate-module {
+    from {
+        top: 0;
+        left: 50%
+    }
+
+    to {
+        top: 15rem;
+        left: 50%;
+    }
+}
+
+.icon {
+    font-size: 30px;
+    color: red;
+}
+
+.icon:active {
+    border: 1px solid black;
+}
+
+.para{
+    position:relative;
+    bottom:4px;
+}
+
+button {
+    position: relative;
+    top: 27rem;
+    left: 8rem;
+    padding: 0.7rem;
+    border: 2px solid white;
+    border-radius: 16px;
+    font-size: 1.3rem;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    transition: all 0.2s linear;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+/* @media screen and (max-width:350px){
+    body{
+        height:100vh;
+    }
+} */
+
+@media screen and (max-width:430px){
+    @keyframes animate-module {
+        from {
+            top: 0;
+            left: 1rem;
+        }
+    
+        to {
+            top: 15rem;
+            left: 1rem;
+        }
+    }
+}
