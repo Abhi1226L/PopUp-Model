@@ -6,14 +6,19 @@ body {
     background-repeat: no-repeat;
 }
 
+#model-container{
+    display:none;
+}
+
 .popup {
+    display:flex;
+    justify-content:space-between;
     width: 6rem;
     padding: 8px;
     background: #D3CCE3;
     background: linear-gradient(to left, #E9E4F0, #D3CCE3);
     border-radius: 10px;
     position: relative;
-    display: none;
     animation-name: animate-module;
     animation-duration: 1s;
     animation-timing-function: linear;
