@@ -7,7 +7,7 @@ body {
 }
 
 .popup {
-    width: 6.5rem;
+    width: 6.8rem;
     display: flex;
     padding: 8px;
     background: #D3CCE3;
@@ -35,6 +35,7 @@ body {
 }
 
 .icon {
+    margin-right:10px;
     font-size: 30px;
     color: red;
 }
