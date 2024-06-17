@@ -1,36 +1,42 @@
 # PopUp-Model
-# Popup and Button with Full Screen Background
 
-This project demonstrates a simple HTML structure with CSS styling to create a popup and a button over a full-screen background image. The design is responsive and includes animations for the popup.
+This project demonstrates a simple HTML structure with CSS styling to create a popup and a button over with a functionality using javascript. The design is responsive and includes animations for the popup. 
 
 ## Features
-
-- Full-screen background image
-- Popup component with gradient background and animation
+- Popup component with animation
 - Button with hover effects
-- Responsive design for smaller screens
+- Responsive design for every screen
 
-## Demo
-
-![Demo Screenshot](https://images4.alphacoders.com/702/702142.jpg)
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
+- [Demo](#demo)
+- [Links](#links)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
+- [Author](#author)
 
-## Getting Started
+## Demo
 
-### Prerequisites
+![](popup.png)
 
-- A web browser (Chrome, Firefox, Safari, etc.)
+## Links
+- URL : [URL here](https://github.com/Abhi1226L/PopUP-Model)
 
-## Usage
+## Built with
 
-The project includes the following components:
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Animation
+- Vanilla JS
 
-- **Popup**: Displays a message and a close icon.
-- **Button**: Triggers the popup animation.
+## What I learned
+
+ I learnt using of CSS properties like background-size,position,,transition,animation and connecting that animation with javascript while the button is clicked
+
+ ## Author
+
+- Name - Abhishek
+
+
