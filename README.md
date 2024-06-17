@@ -21,7 +21,7 @@ This project demonstrates a simple HTML structure with CSS styling to create a p
 ![](popup.png)
 
 ## Links
-- URL : [URL here](https://github.com/Abhi1226L/PopUP-Model)
+- URL : [Live Project](https://abhi1226l.github.io/PopUp-Model/)
 
 ## Built with
 
