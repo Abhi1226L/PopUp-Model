@@ -8,10 +8,8 @@ body {
 
 .popup {
     width: 6rem;
-    display: flex;
     padding: 8px;
     background: #D3CCE3;
-    background: -webkit-linear-gradient(to left, #E9E4F0, #D3CCE3);
     background: linear-gradient(to left, #E9E4F0, #D3CCE3);
     border-radius: 10px;
     position: relative;
@@ -35,18 +33,16 @@ body {
 }
 
 .icon {
+    width: 12px;
     font-size: 21px;
     color: red;
+    cursor: pointer;
+    border: 1px solid black;
 }
 
 .icon:active {
     border: 1px solid black;
 }
-
-/* .para{
-    position:relative;
-    bottom:4px;
-} */
 
 button {
     position: relative;
@@ -71,13 +67,13 @@ button:hover {
 }
 
 
-@media screen and (max-width:430px){
+@media screen and (max-width:430px) {
     @keyframes animate-module {
         from {
             top: 0;
             left: 1rem;
         }
-    
+
         to {
             top: 15rem;
             left: 1rem;
@@ -85,8 +81,8 @@ button:hover {
     }
 }
 
-@media screen and (max-width:350px){
-    .para{
-        font-size:15px;
+@media screen and (max-width:350px) {
+    .para {
+        font-size: 15px;
     }
 }
