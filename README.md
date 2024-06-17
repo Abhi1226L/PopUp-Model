@@ -1,6 +1,6 @@
 # PopUp-Model
 
-This project demonstrates a simple HTML structure with CSS styling to create a popup and a button over with a functionality using javascript. The design is responsive and includes animations for the popup. 
+This project demonstrates a simple HTML structure with CSS styling to create a popup and a button using javascript. The design is responsive and includes animations for the popup. 
 
 ## Features
 - Popup component with animation
