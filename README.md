@@ -33,7 +33,7 @@ This project demonstrates a simple HTML structure with CSS styling to create a p
 
 ## What I learned
 
- I learnt using of CSS properties like background-size,position,transition,animation and connecting that animation with javascript while the button is clicked
+ I learnt using of CSS properties like background-size,position,transition,animation and connecting animation with javascript while the button is clicked
 
  ## Author
 
